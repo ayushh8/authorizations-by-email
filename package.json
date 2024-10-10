@@ -1,0 +1,29 @@
+{
+  "name": "authorization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/index.js",
+ "scripts": {
+  "dev": " supervisor backend/index.js"
+},
+
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^3.4.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "supervisor": "^0.12.0"
+  }
+}
+
